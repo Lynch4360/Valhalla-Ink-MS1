@@ -13,7 +13,38 @@
     --main-radius:5px;
     --main-padding:5px;
 }
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    display: flex;
+}
 
+.container2 {
+    width: 100%;
+    max-width: 120rem;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1.5rem; /* maybe change this later, change to no gap or get image in background */
+    /* grid-template-areas: ; */
+}
+
+.image-gallery a {
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    backgorund-size: fill;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .container {
     display: grid;
