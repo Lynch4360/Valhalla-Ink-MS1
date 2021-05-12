@@ -44,6 +44,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+}
+
+.image-gallery a i {
+    color: rgba(255,255,255, .8);
+    font-size: 3rem;
+    position: relative;
+    z-index: 100;
+    padding: 1rem 3rem;
+    border: 2px solid rgba(255,255,255, .8);
+    border-radius: .4rem;
+    transition: opacity .5s;
 }
 
 .container {
