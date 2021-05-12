@@ -33,6 +33,10 @@ body {
     grid-template-rows: auto;
     grid-gap: 1.5rem; /* maybe change this later, change to no gap or get image in background */
     /* grid-template-areas: ; */
+    grid-template-areas: 
+        'img-1 img-2 img-3 img-3'
+        'img-1 img-4 img-5 img-6'
+        'img-7 img-7 img-8 img-6'
 }
 
 .image-gallery a {
@@ -78,6 +82,7 @@ body {
 
 .img-1 {
     grid-area: img-1;
+    min-height: 50rem;
     background-image: url("images/img-1.jpg");
 }
 .img-2 {
@@ -98,6 +103,7 @@ body {
 }
 .img-6 {
     grid-area: img-6;
+    min-height: 51.5rem;
     background-image: url("images/img-6.jpg");
 }
 .img-7 {
