@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Girassol&family=Inconsolata:wght@400&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+
+}
 
 :root{
     --main-radius:5px;
