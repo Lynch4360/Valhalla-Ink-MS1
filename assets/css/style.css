@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Inconsolata:wght@400&display=swap');
+
+
 :root{
     --main-radius:5px;
     --main-padding:5px;
@@ -9,13 +12,14 @@
     height: 100vh;
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-rows: 0.6fr 0.8fr 1.8fr 0.5fr;
     grid-template-areas: 
     "nav nav nav nav"
-    "sidebar main main main"
-    "sidebar content1 content2 content3"
-    "sidebar footer footer footer";
+    "main main main main"
+    "content1 content1 content2 content3"
+    "footer footer footer footer";
     grid-gap: 0.2rem;
+    font-family: 'Inconsolata', monospace;
 }
 
 nav {
@@ -32,13 +36,6 @@ main {
     padding-top:var(--main-padding);
 }
 
-#sidebar {
-    background: #6da195;
-    grid-area: sidebar;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
-}
-
 #content1 {
     background: #e3f0ed;
     grid-area: content1;
@@ -47,21 +44,21 @@ main {
 }
 
 #content2 {
-    background: #585e5c;
+    background: #2c3633;
     grid-area: content2;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
 #content3 {
-    background: #b4c0bd;
+    background: #0b4738;
     grid-area: content3;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
 footer {
-    background: #5c4c4c;
+    background: #d32f2f;
     grid-area: footer;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
@@ -74,7 +71,6 @@ footer {
         grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
         grid-template-areas:
         "nav"
-        "sidebar"
         "menu"
         "content1"
         "content2"
