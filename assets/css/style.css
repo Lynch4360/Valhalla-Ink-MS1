@@ -16,7 +16,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: #150f2f;
+
     display: flex;
 }
 
@@ -125,15 +125,15 @@ body {
     grid-template-areas: 
     "nav nav nav nav"
     "main main main main"
-    "content1 content1 content2 content2"
-    "content1 content1 content3 content3"
+    "content1 content1 content2 content3"
+    "content1 content1 content2 content3"
     "footer footer footer footer";
     grid-gap: 0.2rem;
     font-family: 'Inconsolata', monospace;
 }
 
 nav {
-    background: #150f2f;
+    background: #102027;
     grid-area: nav;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
@@ -146,43 +146,43 @@ nav {
 }
 
 main {
-    background: #150f2f;
+    background: #607d8b;
     grid-area: main;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
 #content1 {
-    background: #150f2f;
+    background: #607d8b;
     grid-area: content1;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
 #content2 {
-    background: #453580;
+    background: #607d8b;
     grid-area: content2;
     border-radius:var(--main-radius);
-    padding-top:var(--main-padding);  
+    padding-top:var(--main-padding);
 }
 
 #content3 {
-    background: #453580;
+    background: #607d8b;
     grid-area: content3;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
 footer {
-    background: #150f2f;
+    background: #102027;
     grid-area: footer;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
 #content2img {
-    width: 430px;
-    height: 250px;
+    width: 500px;
+    height: 410px;
     object-fit: fill;
 }
 
@@ -197,7 +197,7 @@ h2 {
     font-family: 'Girassol', cursive;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #cacaca;
 }
 
 #logo {
@@ -249,7 +249,7 @@ h2 {
     font-size: 160%;
     margin: 1%;
     padding: 2.5%;
-    color: #3a3a3a;
+    color: #cacaca;
 }
 
 
