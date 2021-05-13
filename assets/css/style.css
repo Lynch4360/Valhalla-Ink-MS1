@@ -16,7 +16,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: #eee;
+    background-color: #150f2f;
     display: flex;
 }
 
@@ -133,21 +133,27 @@ body {
 }
 
 nav {
-    background: #313030;
+    background: #150f2f;
     grid-area: nav;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
 main {
-    background: #313030;
+    background: #150f2f;
     grid-area: main;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
 #content1 {
-    background: #453580;
+    background: #150f2f;
     grid-area: content1;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
@@ -168,7 +174,7 @@ main {
 }
 
 footer {
-    background: #453580;
+    background: #150f2f;
     grid-area: footer;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
