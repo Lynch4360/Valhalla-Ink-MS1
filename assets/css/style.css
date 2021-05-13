@@ -9,14 +9,15 @@
 }
 
 :root{
-    --main-radius:5px;
-    --main-padding:5px;
+    --main-radius: 5px;
+    --main-padding: 5px;
 }
 
 body {
     width: 100vw;
     height: 100vh;
     background-color: #102027;
+    font-family:  'Girassol', cursive;
     
     display: flex;
 
@@ -154,6 +155,22 @@ nav {
     color: #CACACA;
 }
 
+p {
+    padding: 10px;
+    color: #8eacbb;
+    font-family:  'Girassol', cursive;
+    font-size: 140%;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
 #logo {
     float: left;
     font-size: 350%;
@@ -166,6 +183,8 @@ main {
     grid-area: main;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
+    max-height: 250px;
+
 }
 
 #content1 {
@@ -178,15 +197,15 @@ main {
 #content2 {
     background: #607d8b;
     grid-area: content2;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
+    
+    ;
 }
 
 #content3 {
     background: #607d8b;
     grid-area: content3;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
+    
+    
 }
 
 footer {
@@ -197,14 +216,14 @@ footer {
 }
 
 #content2img {
-    width: 500px;
+    width: 430px;
     height: 410px;
     object-fit: fill;
 }
 
 #content3img {
     width: 430px;
-    height: 250px;
+    height: 410px;
     object-fit: cover;
 }
 
