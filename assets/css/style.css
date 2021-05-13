@@ -14,10 +14,12 @@
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    background-color: #102027;
     
     display: flex;
+
 }
 
 .header {
@@ -29,9 +31,10 @@ body {
     background-color: #102027;
 }
 
-.container2 {
+.container-gallery {
     width: 100%;
     max-width: 120rem;
+    height: 100%;
     margin: 0;
     padding: 0 1.5rem;
     background-color: #102027;
@@ -46,7 +49,7 @@ body {
     grid-template-areas: 
         'img-1 img-2 img-3 img-3'
         'img-1 img-4 img-5 img-6'
-        'img-7 img-7 img-8 img-6'
+        'img-7 img-7 img-8 img-6';
 }
 
 .image-gallery a {
@@ -126,7 +129,7 @@ body {
     background-image: url("/assets/images/img-8.jpg");
 }
 
-.container {
+.container-home {
     display: grid;
     height: 100vh;
 
@@ -213,8 +216,8 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
-    margin-left: 30px;
+    font-size: 100%;
+    margin-left: 20px;
 }
 
 /* navigation links */
@@ -263,30 +266,38 @@ h2 {
     color: #cacaca;
 }
 
-
-#logo2 {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
+.nav-gallery {
+    max-width: 120px;
+    background-color: #102027;
+    text-align: left;
+    font-size: 70%;
+    background-size: cover;
 }
 
-/* navigation links */
+/* navigation links
 
 #menu2 {
     font-size: 200%;
     letter-spacing: 0px;
+    font-family:  'Girassol', cursive;
+    list-style-type: none;
 }
+
+
 
 #menu2,
 #logo2 {
     line-height: 80px;
     vertical-align: center;
     text-align: center;
+    font-weight: 600px;
+    font-size: 350%;
+    text-decoration: none;
 }
 
-
+*/
 @media only screen and (max-width:550px){
-    .container{
+    .container-home{
         grid-template-columns:1fr;
         grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
         grid-template-areas:
