@@ -150,11 +150,13 @@ nav {
     grid-area: nav;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
+    padding-right: 5em;
+    color: #CACACA;
 }
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 350%;
     margin-left: 30px;
     
 }
@@ -206,17 +208,17 @@ footer {
     object-fit: cover;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Girassol', cursive;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-size: 150%;
     color: #cacaca;
 }
 
 #logo {
     float: left;
-    font-size: 100%;
+    font-size: 180%;
     margin-left: 20px;
 }
 
@@ -274,28 +276,7 @@ h2 {
     background-size: cover;
 }
 
-/* navigation links
 
-#menu2 {
-    font-size: 200%;
-    letter-spacing: 0px;
-    font-family:  'Girassol', cursive;
-    list-style-type: none;
-}
-
-
-
-#menu2,
-#logo2 {
-    line-height: 80px;
-    vertical-align: center;
-    text-align: center;
-    font-weight: 600px;
-    font-size: 350%;
-    text-decoration: none;
-}
-
-*/
 @media only screen and (max-width:550px){
     .container-home{
         grid-template-columns:1fr;
