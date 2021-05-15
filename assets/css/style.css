@@ -1,44 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Girassol&family=Inconsolata:wght@400&display=swap');
 
-*::before,
-*::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
-
 :root{
     --main-radius: 5px;
     --main-padding: 5px;
 }
 
-body {
+body,
+html{
+    padding: 0;
+    margin: 0;
     width: 100vw;
     height: 100vh;
     background-color: #102027;
     font-family:  'Girassol', cursive;
     
-    display: flex;
-
-}
-
-.header {
-    max-width:120px;
-    font-size: 7px;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-    background-color: #102027;
 }
 
 .container-gallery {
     width: 100%;
-    max-width: 120rem;
-    height: 100%;
-    margin: 0;
-    padding: 0 1.5rem;
+    max-width: 130rem;
+    position: absolute;
+    bottom: 0;
+    height: 90%;
+    margin: auto;
     background-color: #102027;
+}
+
+.gallery-box {
+    text-align: center;
+    margin: auto;
 }
 
 .image-gallery {
@@ -47,7 +37,7 @@ body {
     grid-template-rows: auto;
     grid-gap: 1.5rem; /* maybe change this later, change to no gap or get image in background */
     /* grid-template-areas: ; */
-    grid-template-areas: 
+    grid-template-areas:
         'img-1 img-2 img-3 img-3'
         'img-1 img-4 img-5 img-6'
         'img-7 img-7 img-8 img-6';
@@ -153,22 +143,26 @@ nav {
     padding-top:var(--main-padding);
     padding-right: 5em;
     color: #CACACA;
+    font-family: 'Girassol', cursive;
 }
 
 p {
     padding: 10px;
-    color: #8eacbb;
+    color: #292B2F;
     font-family:  'Girassol', cursive;
-    font-size: 140%;
+    font-size: 220%;
 }
 
 h2 {
     padding-left: 20px;
+    font-size: 10%;
 }
 
 h3 {
     padding: 0;
+    padding-left: 20px;
     margin: 0;
+    font-size:200%;
 }
 
 #logo {
@@ -216,14 +210,14 @@ footer {
 }
 
 #content2img {
-    width: 430px;
-    height: 410px;
+    width: 800px;
+    height: 700px;
     object-fit: fill;
 }
 
 #content3img {
-    width: 430px;
-    height: 410px;
+    width: 490px;
+    height: 490px;
     object-fit: cover;
 }
 
@@ -235,6 +229,10 @@ h1, h2 {
     color: #cacaca;
 }
 
+h1, #logo {
+    margin: 24px 0px 24px 20px;
+}
+
 #logo {
     float: left;
     font-size: 180%;
@@ -244,7 +242,7 @@ h1, h2 {
 /* navigation links */
 
 #menu {
-    font-size: 150%;
+    font-size: 130%;
     letter-spacing: 3px;
 }
 
@@ -256,11 +254,13 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 25px;
+    margin-right: 15px;
 }
 
 #menu a {
     text-decoration: none;
+    font-size: 150%;
+
     color: inherit;
 }
 
@@ -281,20 +281,15 @@ h1, h2 {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 2.5%;
     color: #cacaca;
 }
 
-.nav-gallery {
-    max-width: 120px;
-    background-color: #102027;
-    text-align: left;
-    font-size: 70%;
-    background-size: cover;
+.problems {
+    
 }
-
 
 @media only screen and (max-width:550px){
     .container-home{
@@ -321,6 +316,8 @@ h1, h2 {
         }
 
         .image-gallery a {
+            padding:0;
+            margin:0;
             height: 20rem;
         }
 
@@ -356,4 +353,3 @@ h1, h2 {
 
     }
 }
-
