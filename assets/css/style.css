@@ -48,6 +48,32 @@ section {
     width: min(90%, 70.5rem);
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 40em) {
+    .column {
+        flex-direction: row;
+    }
+
+    .column > * {
+        flex-basis: 100%;
+    }
+}
+
+h3,
+h3,
+p {
+    margin-bottom: 1em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .text-center {
     text-align: center;
 }
