@@ -36,7 +36,7 @@ body {
 
 .image-gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     grid-template-rows: auto;
     grid-gap: 1.5rem;
     /* grid-template-areas: ; */
@@ -227,7 +227,7 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-    .content {
+    .image-gallery {
         grid-template-areas:
             'header header header header'
             'img-1 img-2 img-3 img-3'
@@ -256,7 +256,7 @@ footer {
 
 
 @media screen and (max-width: 600px) {
-    .content {
+    .image-gallery {
         grid-template-areas:
             'header header header header'
             'img-1 img-1 img-1 img-1'
