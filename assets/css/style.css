@@ -10,6 +10,11 @@
 :root {
     --main-radius: 5px;
     --main-padding: 5px;
+    --color-900: #252c30;
+    --color-200: #CACACA;
+    --color-400: #315564;
+
+    
 }
 
 body {
@@ -19,14 +24,24 @@ body {
     height: auto;
     background-color: #102027;
     font-family: 'Girassol', cursive;
+    font-weight: 400;
+    font-size: 1.3125REM;
+    line-height: 1.6;
     /* overflow-y: hidden; */
 }
 
+.sarah, .michael { 
+    background-color: var(--color-400)
+}
+.about {
+    background-color: var(--color-900)
+}
+
+/*gallery styling*/
 
 .container-gallery {
     width: 100%;
-    height: 90%;
-    /* max-width: 130rem; */
+    height: 80%;
     position: absolute;
     bottom: auto;
     margin: auto;
@@ -36,7 +51,7 @@ body {
 
 .image-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));/* 1fr 1fr 1fr 1fr */
     grid-template-rows: auto;
     grid-gap: 1.5rem;
     /* grid-template-areas: ; */
@@ -226,16 +241,13 @@ footer {
     color: #cacaca;
 }
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .image-gallery {
         grid-template-areas:
-            'header header header header'
+            'nav nav nav nav'
             'img-1 img-2 img-3 img-3'
-            'img-1 img-1 img-3 img-3'
-            'img-4 img-4 img-5 img-5'
-
-            'img-6 img-7 img-7 img-7'
-            'img-8 img-8 img-8 img-8'
+            'img-1 img-4 img-5 img-6'
+            'img-7 img-7 img-8 img-6'
             'footer footer footer footer'
     }
 
@@ -255,10 +267,10 @@ footer {
 }
 
 
-@media screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
     .image-gallery {
         grid-template-areas:
-            'header header header header'
+            'nav nav nav nav'
             'img-1 img-1 img-1 img-1'
             'img-2 img-2 img-2 img-2'
             'img-3 img-3 img-3 img-3'
