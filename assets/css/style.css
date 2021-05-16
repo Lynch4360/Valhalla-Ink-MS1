@@ -43,6 +43,15 @@ section {
     padding: 3rem 0;
 }
 
+.container-home {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+.text-center {
+    text-align: center;
+}
+
 /*gallery styling*/
 
 .container-gallery {
@@ -170,6 +179,7 @@ header {
     padding-top: var(--main-padding);
     padding-right: 5em;
     color: #CACACA;
+    height: 10rem;
 }
 
 #logo {
@@ -180,9 +190,13 @@ header {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Girassol', cursive;
     text-transform: uppercase;
+    font-weight:900;
+    line-height: 1;
+    margin-bottom: 1em;
     letter-spacing: 2px;
     font-size: large;
     color: #cacaca;
