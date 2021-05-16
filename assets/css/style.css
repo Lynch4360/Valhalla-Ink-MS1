@@ -335,30 +335,4 @@ footer {
         min-height: 30rem;
         height: 20rem;
     }
-/*Accordion styling */
-.accordion_section {
-    width: 100%;
-    height: 100vh;
-    background-color: var(--color-400);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box {
-    width: 100%;
-    max-width: 75rem;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
-.accordion-item {
-    background-color:var(--color-900);
-    border-radius: .5rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    box-shadow: .4rem 3px .4rem rgba(0,0,0,.2);
-}
-
-
-}
+ }
