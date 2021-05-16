@@ -337,3 +337,18 @@ footer {
     }
  }
  /* Contact Page Styling */
+ .section-contact {
+     background-color: var(--color-900);
+     padding: 40px 0;
+ }
+ .section-contact h1 {
+     text-align: center;
+     color: var(--color-200);
+ }
+
+ .border {
+     width: 115px;
+     height: 10px;
+     background: var(--color-400);
+     margin: 40px auto;
+ }
