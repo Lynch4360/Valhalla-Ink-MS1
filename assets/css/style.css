@@ -82,7 +82,7 @@ img {
 .text-center {
     text-align: center;
 }
-/* Navigation bar styling */
+/* Navigation bar styling Inspiration taken from https://codepen.io/nayemkh/pen/JVNxxz */
 
 header {
     background: var(--color-900);
@@ -98,7 +98,8 @@ nav {
     left: 0;
     background: var(--color-900);
     width: 100%;
-    display: none;
+    transform: scale(1,0);
+    transition: transform 300ms ease-in-out;
 }
 
 nav ul {
@@ -124,15 +125,51 @@ nav a:hover {
 }
 
 .nav-toggle:checked ~ nav  {
-    display: block;
+    transform: scale(1,1);
 }
 .nav-toggle {
     display: none;
 }
-/* 
+
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Taken from Caler Edwards video link in ReadMe */
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    height: 3px;
+    background: white;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+    bottom: 9px;
+}
+
+.nav-toggle-label span::after {
+    top: 9px;
+}
+
 .logo {
     margin: 0;
-} */
+}
 
 /*gallery styling*/
 
