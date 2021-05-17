@@ -196,14 +196,13 @@ img {
 .container-gallery {
     width: 100%;
     /* max-width: 130rem; */
-    height: 85rem;
     position: absolute;
     bottom: 0;
     object-fit: cover;
     margin: auto;
     background-color: #102027;
 }
-
+/* 
 header {
     background: #102027;
     border-radius: var(--main-radius);
@@ -218,7 +217,7 @@ header {
     margin-left: 30px;
     padding-right: 30px;
 
-}
+} */
 
 h1,
 h2,
@@ -231,7 +230,7 @@ h3 {
     letter-spacing: 5px;
     color: #cacaca;
 }
-
+/* 
 h1,
 #logo {
     margin: 24px 0px 24px 20px;
@@ -246,7 +245,7 @@ h1,
 #menu {
     font-size: xx-large;
     letter-spacing: 3px;
-}
+} */
 
 footer {
     background: #102027;
@@ -273,7 +272,7 @@ footer {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
-}
+} */
 
 .social-networks {
     text-align: center;
