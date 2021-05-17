@@ -32,11 +32,11 @@ body {
 
 .sarah, .michael {
     color: var(--color-200);
-    background-color: var(--color-400)
+    background-color: var(--color-400);
 }
 .about {
     color: var(--color-200);
-    background-color: var(--color-900)
+    background-color: var(--color-900);
 }
 
 header,
@@ -87,8 +87,44 @@ img {
 header {
     background: var(--color-900);
     position: fixed;
+    z-index: 999;
     width: 100%;
 }
+
+nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: var(--color-900);
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #000;
+}
+/* 
+.logo {
+    margin: 0;
+} */
 
 /*gallery styling*/
 
