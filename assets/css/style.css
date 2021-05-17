@@ -46,7 +46,7 @@ section {
 
 .container-home {
     margin-inline: auto;
-    width: min(90%, 70.5rem);
+    width: min(85%, 75.5rem);
 }
 
 .column {
@@ -210,12 +210,13 @@ header {
     padding-top: var(--main-padding);
     padding-right: 5em;
     color: #CACACA;
-    height: 10rem;
+    height: 15rem;
 }
 
 #logo {
     float: left;
     margin-left: 30px;
+    padding-right: 30px;
 
 }
 
@@ -227,7 +228,7 @@ h3 {
     font-weight:900;
     line-height: 1;
     margin-bottom: 1em;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     color: #cacaca;
 }
 
@@ -291,7 +292,7 @@ footer {
 @media only screen and (max-width: 900px) {
     .image-gallery {
         grid-template-areas:
-            'nav nav nav nav'
+            'header header header header'
             'img-1 img-2 img-3 img-3'
             'img-1 img-4 img-5 img-6'
             'img-7 img-7 img-8 img-6'
@@ -317,7 +318,7 @@ footer {
  @media only screen and (max-width: 600px) {
     .image-gallery {
         grid-template-areas:
-            'nav nav nav nav'
+            'header header header header'
             'img-1 img-1 img-1 img-1'
             'img-2 img-2 img-2 img-2'
             'img-3 img-3 img-3 img-3'
@@ -372,6 +373,22 @@ footer {
      color: #ddd;
      
  }
- .form-text {
+ .form-text:focus-visible {
      box-shadow: 0 0 20px 10px #36698e;
+ }
+ textarea.form-text{
+     resize: none;
+     height: 120px;
+ }
+ .form-button{
+     float: right;
+     border: 0;
+     background: var(--color-400);
+     color: #fff;
+     padding: 10px 45px;
+     border-radius: 25px;
+     cursor: pointer;
+ }
+ .form-button:hover{
+     background: var(--color-900);
  }
