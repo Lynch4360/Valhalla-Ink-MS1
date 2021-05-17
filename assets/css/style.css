@@ -82,6 +82,13 @@ img {
 .text-center {
     text-align: center;
 }
+/* Navigation bar styling */
+
+header {
+    background: var(--color-900);
+    position: fixed;
+    width: 100%;
+}
 
 /*gallery styling*/
 
@@ -202,6 +209,7 @@ img {
     margin: auto;
     background-color: #102027;
 }
+
 /* 
 header {
     background: #102027;
@@ -253,7 +261,7 @@ footer {
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
-
+/*
 #menu li {
     float: right;
     list-style-type: none;
