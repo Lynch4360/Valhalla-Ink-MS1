@@ -25,7 +25,7 @@ body {
     background-color: #102027;
     font-family: 'Girassol', cursive;
     font-weight: 400;
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     line-height: 1.6;
     /* overflow-y: hidden; */
 }
@@ -176,6 +176,18 @@ nav a:hover {
 
 .logo {
     margin: 0;
+    grid-column: 2 / span 1;
+}
+
+@media screen and (min-width: 800px) {
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600) 1fr;
+    }
 }
 
 /*gallery styling*/
