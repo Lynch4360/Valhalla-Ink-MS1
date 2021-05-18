@@ -24,7 +24,7 @@ body {
     height: auto;
     background-color: #102027;
     font-family: 'Girassol', cursive;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.4rem;
     line-height: 1.6;
     /* overflow-y: hidden; */
@@ -39,9 +39,8 @@ body {
     background-color: var(--color-900);
 }
 
-header,
 section {
-    padding: 5rem 0;
+    padding: 7.5rem 0;
 }
 
 .container-home {
@@ -89,6 +88,7 @@ header {
     position: fixed;
     z-index: 999;
     width: 100%;
+    padding-bottom: 2rem;
 }
 
 nav {
@@ -175,8 +175,28 @@ nav a:hover {
 }
 
 .logo {
-    margin: 0;
-    grid-column: 2 / span 1;
+    grid-column: 2 / 3;
+}
+
+nav {
+    all: unset;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    opacity: 1;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 3em;
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 800px) {
