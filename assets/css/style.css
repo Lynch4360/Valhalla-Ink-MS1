@@ -99,6 +99,7 @@ nav {
     background: var(--color-900);
     width: 100%;
     transform: scale(1,0);
+    transform-origin: top;
     transition: transform 300ms ease-in-out;
 }
 
@@ -118,14 +119,20 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
+    transition: opacity 150ms ease-in-out;
 }
 
 nav a:hover {
     color: #000;
 }
 
-.nav-toggle:checked ~ nav  {
+.nav-toggle:checked ~ nav {
     transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 300ms ease-in-out 300ms;
 }
 .nav-toggle {
     display: none;
@@ -148,7 +155,7 @@ nav a:hover {
     display: block;
     height: 3px;
     background: white;
-    width: 2em;
+    width: 1.5em;
     border-radius: 2px;
     position: relative;
 }
@@ -291,50 +298,17 @@ nav a:hover {
     background-color: #102027;
 }
 
-/* 
-header {
-    background: #102027;
-    border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
-    padding-right: 5em;
-    color: #CACACA;
-    height: 15rem;
-}
-
-#logo {
-    float: left;
-    margin-left: 30px;
-    padding-right: 30px;
-
-} */
-
 h1,
 h2,
 h3 {
     font-family: 'Girassol', cursive;
     text-transform: uppercase;
-    font-weight:900;
+    font-weight:600;
     line-height: 1;
     margin-bottom: 1em;
     letter-spacing: 5px;
     color: #cacaca;
 }
-/* 
-h1,
-#logo {
-    margin: 24px 0px 24px 20px;
-}
-
-#menu,
-#logo {
-    line-height: 60px;
-}
-
-
-#menu {
-    font-size: xx-large;
-    letter-spacing: 3px;
-} */
 
 footer {
     background: #102027;
@@ -342,26 +316,6 @@ footer {
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
-/*
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 15px;
-}
-
-#menu a {
-    text-decoration: none;
-
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 3px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-} */
 
 .social-networks {
     text-align: center;
