@@ -328,12 +328,12 @@ p {
 
 .leftbox-footer {
     float: left;
-    padding: 0 3rem;
+    padding: 0 4rem;
 }
 
 .rightbox-footer {
     float: right;
-    padding: 0 3rem;
+    padding: 0 4rem;
 }
 
 .social-networks>li {
@@ -345,6 +345,24 @@ p {
     padding: 2.5%;
     color: #cacaca;
 }
+
+@media screen and (max-width: 992px) {
+    .leftbox-footer {
+      width: 50%;
+    }
+    .rightbox-footer {
+        width: 50%;
+      }
+  }
+
+@media screen and (max-width: 600px) {
+    .leftbox-footer {
+        width: 100%;
+      }
+    .rightbox-footer {
+        width: 100%;
+    }
+  }
 
 @media only screen and (max-width: 900px) {
     .image-gallery {
@@ -455,4 +473,5 @@ p {
         display: flex;
         width: 100%;
     }
-  }
+}
+
