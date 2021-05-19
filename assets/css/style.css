@@ -25,9 +25,7 @@ body {
     background-color: #102027;
     font-family: 'Girassol', cursive;
     font-weight: 300;
-    font-size: 1.4rem;
-    line-height: 1.6;
-    /* overflow-y: hidden; */
+    font-size: 1.1rem;
 }
 
 .sarah, .michael {
@@ -45,7 +43,7 @@ section {
 
 .container-home {
     margin-inline: auto;
-    width: min(85%, 75.5rem);
+    width: min(90%, 70.5rem);
 }
 
 .column {
@@ -84,15 +82,15 @@ img {
 /* Navigation bar styling Inspiration taken from https://codepen.io/nayemkh/pen/JVNxxz */
 
 header {
-    background: var(--color-900);
-    position: fixed;
+    background: var(--color-400);
     z-index: 999;
     width: 100%;
-    padding-bottom: 2rem;
+    padding: 3rem 2rem;
+    height: 10rem;
+    text-align: center;
 }
 
 nav {
-    position: absolute;
     text-align: left;
     top: 100%;
     left: 0;
@@ -119,23 +117,32 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
-    transition: opacity 150ms ease-in-out;
+    position: relative;
 }
 
 nav a:hover {
     color: #000;
 }
 
-.nav-toggle:checked ~ nav {
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+    position: absolute;
+    bottom: -.2em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in 200ms;
+}
+
+nav a:hover::before {
     transform: scale(1,1);
 }
 
-.nav-toggle:checked ~ nav a {
-    opacity: 1;
-    transition: opacity 300ms ease-in-out 300ms;
-}
-.nav-toggle {
-    display: none;
+.active {
+    border-bottom: 5px solid #000;
 }
 
 .nav-toggle-label {
@@ -148,34 +155,8 @@ nav a:hover {
     align-items: center;
 }
 
-/* Taken from Caler Edwards video link in ReadMe */
-.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-    display: block;
-    height: 3px;
-    background: white;
-    width: 1.5em;
-    border-radius: 2px;
-    position: relative;
-}
-
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-    content: '';
-    position: absolute;
-}
-
-.nav-toggle-label span::before {
-    bottom: 9px;
-}
-
-.nav-toggle-label span::after {
-    top: 9px;
-}
-
 .logo {
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
 }
 
 nav {
@@ -195,19 +176,22 @@ nav ul {
 }
 
 nav li {
-    margin-left: 3em;
+    margin-left: 1.5em;
     margin-bottom: 0;
+    text-align: center;
 }
 
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
     .nav-toggle-label {
         display: none;
     }
 
     header {
         display: grid;
-        grid-template-columns: 1fr auto minmax(600) 1fr;
+        grid-template-columns: 1fr auto minmax(600, 3fr) 1fr;
     }
+
+    
 }
 
 /*gallery styling*/
@@ -221,13 +205,11 @@ nav li {
     background-color: #102027;
 }
 
-
 .image-gallery {
     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));/* 1fr 1fr 1fr 1fr */
+     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     grid-template-rows: auto;
     grid-gap: 1.5rem;
-    /* grid-template-areas: ; */
     grid-template-areas:
         'header header header header'
         'img-1 img-2 img-3 img-3'
@@ -322,24 +304,11 @@ nav li {
 
 .container-gallery {
     width: 100%;
-    /* max-width: 130rem; */
     position: absolute;
     bottom: 0;
     object-fit: cover;
     margin: auto;
     background-color: #102027;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Girassol', cursive;
-    text-transform: uppercase;
-    font-weight:600;
-    line-height: 1;
-    margin-bottom: 1em;
-    letter-spacing: 5px;
-    color: #cacaca;
 }
 
 footer {
@@ -455,7 +424,7 @@ footer {
      height: 120px;
  }
  .form-button{
-     float: right;
+     float: left;
      border: 0;
      background: var(--color-400);
      color: #fff;
@@ -466,3 +435,10 @@ footer {
  .form-button:hover{
      background: var(--color-900);
  }
+
+ @media only screen and (max-width: 375px) {
+    nav ul {
+        display: flex;
+        width: 100%;
+    }
+  }
