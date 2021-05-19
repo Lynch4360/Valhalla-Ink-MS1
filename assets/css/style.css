@@ -310,7 +310,7 @@ nav li {
     margin: auto;
     background-color: #102027;
 }
-
+/* Footer Styling */
 footer {
     background: #102027;
     grid-area: footer;
@@ -320,6 +320,20 @@ footer {
 
 .social-networks {
     text-align: center;
+}
+
+p {
+    color: var(--color-200);
+}
+
+.leftbox-footer {
+    float: left;
+    padding: 0 3rem;
+}
+
+.rightbox-footer {
+    float: right;
+    padding: 0 3rem;
 }
 
 .social-networks>li {
