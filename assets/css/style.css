@@ -173,25 +173,23 @@ nav a {
 
 nav ul {
     display: flex;
+
+    margin-block-start: 0em;
+    padding-inline-start: 0px;
+    width: 100%;
 }
 
 nav li {
-    margin-left: 1.5em;
+    margin-left: 1em;
     margin-bottom: 0;
     text-align: center;
 }
 
-@media only screen and (min-width: 800px) {
-    .nav-toggle-label {
-        display: none;
+@media only screen and (max-width: 375px) {
+    nav ul {
+    display:unset;
+    width: 100%;
     }
-
-    header {
-        display: grid;
-        grid-template-columns: 1fr auto minmax(600, 3fr) 1fr;
-    }
-
-    
 }
 
 /*gallery styling*/
