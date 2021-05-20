@@ -1,59 +1,82 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<!-- Headings -->
+# Valhalla Ink 1
 
-Welcome Lynch4360,
+## [View the live site](https://lynch4360.github.io/Valhalla-Ink-MS1/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## 3. Project Overview
+This project creates a ficticious website for a ficticious tattoo parlour. It imagines the building to be in the heart of the coastal County of Galway. Where hundreds of years before Vikings themselves had their longboats beached. The site taps into this heritage and creates a celtic and norse based body art shop.
 
-## Gitpod Reminders
+Valhalla Ink is a comprehensive website incorporating various technological elements to offer users a full understanding of Valhalla Ink. It is informative and showcases work done by the two in-house artists, Michael Lemmo and Sarah Crawford.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## 2. UXD - User Experience Design
 
-Another blue button should appear to click: _Open Browser_.
+The target demographic aare users aged 18-55, Really anyone who wants to get a tattoo
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The main goal of the Valhalla Ink website are 
+1. information  for its users. The visitors to the site will be able to see what kind of artwork is the norm for the shop. 
+2. To generate traffic to the site, allow future customers to have a hub for contacting the shop
 
-A blue button should appear to click: _Make Public_,
+## User Stories
 
-Another blue button should appear to click: _Open Browser_.
+###A Customer will want to:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+1) Learn what Valhalla Ink is.
 
-To log into the Heroku toolbelt CLI:
+2) Learn where the shop is.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+3) Be able to contact one of the shop for design ideas.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+4) See examples of tattoos already done.
 
-## Updates Since The Instructional Video
+### A site owner will want to:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+1) Generate traffic to the shop using an online presence.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+2) Drive up engagement with the public using social media.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+3) Have a place to showcase the skills of their employees.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+4) Have a place to find all the details about the shop.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## The 5 Planes of User Experience Development.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Scope
+For this project I have decided that it is best to keep it simple. A tattoo parlour does not need a fancy website.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+I feel that the website needs:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- A header that can navigate between the differant pages and would be responsive on all devices.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- A home page that talks a little bit about the Shop and gives the user some history.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- An about the authors section where future customers can build up a familiarity with the clientele.
 
----
+- A footer that has Social links and any contact information.
 
-Happy coding!
+- A Gallery page so that the user can see some of the recent work done in the shop.
+
+- A contact page so that future customers could express their designs in an in-house format on the site rather than emailing. 
+
+### Structure 
+
+My wireframes can be found below. The Website is setup so that it can be viewed on as many devices as possible. This was at the forefront of my design process. 
+
+### Wireframes
+
+### Surface
+
+### Skeleton
+
+#### Colours
+
+#### Typography
+
+#### Images
+
+
+
+
+
+
