@@ -130,6 +130,69 @@ The favicon used for the site was taken from favicon.io
 
 - As I have stated above all the images were taken from pexels and paxabay. These images are royalty feee and do not incur any copyright issues.
 
+### Testing
+
+Most testing was done through Developer tools in Google Chrome, whilst in the preview from Gitpod. This resulted in modifications to the code as it was being written.
+
+#### Navigation Bar
+
+- Click on the logo at the top of the header and see if it displays clearly.
+- Click on one of the links to the other pages Gallery and Contact and see if they open.
+- Can the Navigation bar be fully functional on all screen types.
+- Does the nav bar appear the same on all pages of the site.
+
+##### All tests were performed and no errors were found.
+
+#### Footer
+
+- Click on all social media links in the footer, do they open in a new tab, do they open to the correct site.
+- Is the footer information fully functioning and legible on alla screen sizes.
+
+##### All tests were performed and no errors were found.
+
+#### Home Page
+
+- Do the images stretch or become distorted on differant screen sizes.
+- Does the text-wrap perform as expected when screen sizes change and is all of the text legible 100% of the time.
+- Is the page responsive on all screen sizes
+
+##### All tests were performed and no errors were found.
+
+#### Gallery Page
+
+- Do the images stretch or become distorted on differant screen sizes.
+- Is the page responsive on all screen sizes.
+
+##### All test were performed and no errors were found.
+
+#### Contact Page
+
+- Does the content of the email input box require an actual email address.
+- Is the page responsive on all screen sizes.
+
+##### All test were performed and no errors were found.
+
+### I tested the website on the following browsers using a Chuwi Herobook Pro and a Custom built PC (intel i7 6700k, GTX 1070ti).
+
+Google Chrome-Version 90.0.4430.212 (Official Build) (64-bit)
+
+Firefox-Version 88.0 (64 bit)
+
+The website was fully functional on all of these browsers. All navigation links worked. The screens responded to differant devices screen widths. All of the links in the footer worked.
+
+The website was also tested on a Huawei P30 running Android 11.
+
+### Validation
+
+The following website was used for validation of my code.
+
+[Validator For HTML5 and CSS3](https://validator.w3.org/).
+
+All HTML files came backl with no issues
+
+[HTML Validation Iamge] 
+
+
 
 
 

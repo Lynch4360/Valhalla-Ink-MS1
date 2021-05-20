@@ -259,7 +259,7 @@ nav li {
 .image-gallery a:hover::before {
     opacity: 1;
 }
-
+/* Not the usual way of adding images, necessary because of CSS Grid */
 .img-1 {
     grid-area: img-1;
     min-height: 51.5rem;
