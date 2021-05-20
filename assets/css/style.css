@@ -45,7 +45,7 @@ section {
 }
 
 .container-home {
-    margin-inline: auto;
+    margin: auto;
     width: min(90%, 70.5rem);
 }
 
@@ -177,8 +177,6 @@ nav a {
 
 nav ul {
     display: flex;
-    margin-block-start: 0.4em;
-    padding-inline-start: 0px;
     width: 100%;
 }
 
@@ -252,7 +250,7 @@ nav li {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba (0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .8);
     opacity: 0;
     transition: opacity .5s;
 }
@@ -389,7 +387,7 @@ p {
     }
 
     .img-1 {
-        min-height: 41.5;
+        min-height: 41.5px;
     }
 
     .img-6 {
