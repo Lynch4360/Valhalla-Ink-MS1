@@ -20,7 +20,7 @@ The main goal of the Valhalla Ink website are
 
 ## User Stories
 
-###A Customer will want to:
+### A Customer will want to:
 
 1) Learn what Valhalla Ink is.
 
@@ -66,7 +66,7 @@ My wireframes can be found below. The Website is setup so that it can be viewed 
 ### Wireframes
 
 ### Surface
-
+The colors blue and a blueish grey were chosen because they were very common colours back in the era of the vikings. These were very easy to make dyes for. 
 ### Skeleton
 
 #### Colours
