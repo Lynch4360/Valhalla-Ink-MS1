@@ -100,23 +100,23 @@ The colors blue and a blueish grey were chosen because they were very common col
 Navigation is performed via the header, with page title links kept clear and concise. On smaller screens sizes, the content sections in the home page will stack on top of each other. In the gallery the grid will scale down width wise to fit the screen (On mobile it will only show 1 image at a time). The footer columns stack aswell when confined to a smaller screen. On larger screen sizes this is different, because both images and the information on the home screen can be seen at once. Along with the gallery where the images can be fully sized on the desktop also.
 
 ### Final Site Desktop Screenshots:
-[Home Page Top](home_desktop_top.jpg), [Home Page Middle](home_desktop_mid.jpg), [Home Page Bottom](home_desktop_bottom.jpg)
+[Home Page Top](assets/images/readme_images/home_desktop_top.jpg), [Home Page Middle](assets/images/readme_images/home_desktop_mid.jpg), [Home Page Bottom](assets/images/readme_images/home_desktop_bottom.jpg)
 
-[Gallery Page Top](gallery_desktop_top.jpg), [Gallery Page Bottom](gallery_desktop_bottom.jpg)
+[Gallery Page Top](assets/images/readme_images/gallery_desktop_top.jpg), [Gallery Page Bottom](assets/images/readme_images/gallery_desktop_bottom.jpg)
 
-[Contact Page Top](contact_desktop_top.jpg), [Contact Page Bottom](contact_desktop_bottom.jpg)
+[Contact Page Top](assets/images/readme_images/contact_desktop_top.jpg), [Contact Page Bottom](assets/images/readme_images/contact_desktop_bottom.jpg)
 ### Final Site Tablet Screenshots:
-[Home Page Top](tablet_home_top), [Home Page Bottom](tablet_home_bottom.jpg)
+[Home Page Top](assets/images/readme_images/tablet_home_top), [Home Page Bottom](assets/images/readme_images/tablet_home_bottom.jpg)
 
-[Gallery Page Top](tablet_gallery_top), [Gallery Page Bottom](tablet_gallery_bottom.jpg)
+[Gallery Page Top](assets/images/readme_images/tablet_gallery_top), [Gallery Page Bottom](assets/images/readme_images/tablet_gallery_bottom.jpg)
 
-[Contact Page](contact_tablet.jpg)
+[Contact Page](assets/images/readme_images/contact_tablet.jpg)
 ### Final Site Mobile Screenshots:
-[Home Page Top](home_mobile_top.jpg), [Home Page Middle](home_mobile_middle.jpg), [Home Page Bottom](home_mobile_bottom.jpg)
+[Home Page Top](assets/images/readme_images/home_mobile_top.jpg), [Home Page Middle](assets/images/readme_images/home_mobile_middle.jpg), [Home Page Bottom](assets/images/readme_images/home_mobile_bottom.jpg)
 
-[Gallery Page Top](gallery_mobile_top.jpg), [Gallery Page Middle](gallery_mobile_middle.jpg), [Gallery Page Bottom](gallery_mobile_bottom.jpg)
+[Gallery Page Top](assets/images/readme_images/gallery_mobile_top.jpg), [Gallery Page Middle](assets/images/readme_images/gallery_mobile_middle.jpg), [Gallery Page Bottom](assets/images/readme_images/gallery_mobile_bottom.jpg)
 
-[Contact Page Top](contact_mobile_top.jpg), [Contact Page Bottom](contact_mobile_bottom.jpg)
+[Contact Page Top](assets/images/readme_images/contact_mobile_top.jpg), [Contact Page Bottom](assets/images/readme_images/contact_mobile_bottom.jpg)
 
 
 ## 6. Colors:
