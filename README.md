@@ -17,13 +17,13 @@ Valhalla Ink is a comprehensive website incorporating various technological elem
 
 ## 2. UXD - User Experience Design
 
-The target demographic aare users aged 18-55, Really anyone who wants to get a tattoo
+The target demographic is users aged 18-55, Really the demographic is anyone who would want to get a tattoo
 
-The main goal of the Valhalla Ink website are 
+The main goals of the Valhalla Ink website is:
 
-1. information  for its users. The visitors to the site will be able to see what kind of artwork is the norm for the shop. 
+1. Information  for its users. The visitors to the site will be able to see what kind of artwork is the norm for the shop. 
 
-2. To generate traffic to the site, allow future customers to have a hub for contacting the shop
+2. To generate traffic to the site, allow future customers to have a hub for contacting the shop.
 
 ## 3. User Stories
 
@@ -31,12 +31,13 @@ The main goal of the Valhalla Ink website are
 
 1) Learn what Valhalla Ink is.
 
-2) Learn where the shop is.
+2) Find out where the shop is.
 
-3) Be able to contact one of the shop for design ideas.
+3) Be able to contact one of the shop staff for design ideas.
 
-4) See examples of tattoos already done.
+4) See examples of tattoos already completed.
 
+5) See the skillset of the artists in the shop.
 ### A site owner will want to:
 
 1) Generate traffic to the shop using an online presence.
@@ -56,13 +57,13 @@ The main goal of the Valhalla Ink website are
 ## 5. The 5 Planes of User Experience Development.
 
 ### Scope
-For this project I have decided that it is best to keep it simple. A tattoo parlour does not need a fancy website.
+For this project I have decided that it is best to keep it simple. A tattoo parlour does not need an overly fancy website.
 
 I feel that the website needs:
 
 - A header that can navigate between the differant pages and would be responsive on all devices.
 
-- A home page that talks a little bit about the Shop and gives the user some history.
+- A home page that talks a little bit about the shop and gives the user some history.
 
 - An about the authors section where future customers can build up a familiarity with the clientele.
 
@@ -77,7 +78,7 @@ I feel that the website needs:
 My wireframes can be found below. The Website is setup so that it can be viewed on as many devices as possible. This was at the forefront of my design process. 
 
 ### Wireframes
-The basic structure of Valhalla Ink was sketched out on paper and from there i made a wireframe for the home page and gallery, after some design issues I then made new wireframes which then came into fruition for the live website that is linked above. Plans changed during the initial stages. I have included the old and the redesigned Wireframes Below.
+The basic structure of Valhalla Ink was sketched out on paper and from there i made a wireframe for the home page and gallery, after some design issues I then made new wireframes which then came into fruition for the live website that is linked above. Plans changed during the initial stages. I have included the old and the redesigned Wireframes Below. (There are no mobile Wireframes included because the tablet wireframe is similar just larger in width.)
 
 #### Old Wireframes
 
@@ -87,17 +88,21 @@ The basic structure of Valhalla Ink was sketched out on paper and from there i m
 
 #### Final Wireframes
 
-[Home Desktop](assets/images/readme_images/home_desktop_wf.jpg)
+[Home Desktop](assets/images/readme_images/home_desktop_wf_1.jpg)
 
-[Tablet Gallery And Contact Pages](assets/images/readme_images/tablet_gallery_wf.jpg)
+[Tablet Gallery And Contact Pages](assets/images/readme_images/tablet_gallery_contact.jpg)
 
 [Tablet Home Page](assets/images/readme_images/tablet_home_wf.jpg)
 
 ### Surface
-The colors blue and a blueish grey were chosen because they were very common colours back in the era of the vikings. These were very easy to make dyes for. 
+The color scheme chosen because they were very common colours back in the era of the vikings. These were very easy to make dyes for. These are talked about more in the Colors section below.
 
 ### Skeleton
 Navigation is performed via the header, with page title links kept clear and concise. On smaller screens sizes, the content sections in the home page will stack on top of each other. In the gallery the grid will scale down width wise to fit the screen (On mobile it will only show 1 image at a time). The footer columns stack aswell when confined to a smaller screen. On larger screen sizes this is different, because both images and the information on the home screen can be seen at once. Along with the gallery where the images can be fully sized on the desktop also.
+
+### Surface
+
+This is talked about in the color and typography sections below.
 
 ### Final Site Desktop Screenshots:
 [Home Page Top](assets/images/readme_images/home_desktop_top.jpg), [Home Page Middle](assets/images/readme_images/home_desktop_mid.jpg), [Home Page Bottom](assets/images/readme_images/home_desktop_bottom.jpg)
@@ -106,9 +111,9 @@ Navigation is performed via the header, with page title links kept clear and con
 
 [Contact Page Top](assets/images/readme_images/contact_desktop_top.jpg), [Contact Page Bottom](assets/images/readme_images/contact_desktop_bottom.jpg)
 ### Final Site Tablet Screenshots:
-[Home Page Top](assets/images/readme_images/tablet_home_top), [Home Page Bottom](assets/images/readme_images/tablet_home_bottom.jpg)
+[Home Page Top](assets/images/readme_images/tablet_home_top.jpg), [Home Page Bottom](assets/images/readme_images/tablet_home_bottom.jpg)
 
-[Gallery Page Top](assets/images/readme_images/tablet_gallery_top), [Gallery Page Bottom](assets/images/readme_images/tablet_gallery_bottom.jpg)
+[Gallery Page Top](assets/images/readme_images/gallery_tablet_top.jpg), [Gallery Page Bottom](assets/images/readme_images/gallery_tablet_bottom.jpg)
 
 [Contact Page](assets/images/readme_images/contact_tablet.jpg)
 ### Final Site Mobile Screenshots:
@@ -120,7 +125,7 @@ Navigation is performed via the header, with page title links kept clear and con
 
 
 ## 6. Colors:
-Trying to keep the entire website in a uniform design, I wanted it to be a supporting colour of the theme of the tattoo parlour, so i ended up using certain colours for the header, footer and main body that would have been the clothing colour back in viking eras, (the easiest dyes to make back then were blueish greys) and then i just ensure i used contrasting colour for headings and paragraphs.
+Trying to keep the entire website in a uniform design, I wanted it to be a supporting color of the theme of the tattoo parlour, so i ended up using certain colors for the header, footer and main body that would have been the clothing color back in viking eras, (the easiest dyes to make in that era then were dark blueish greys) and then i just ensure I used contrasting color for headings and paragraphs.
 
 - Body background color: #252c30;
 - Heading and footer color: #315564;
@@ -138,13 +143,13 @@ All flavour text written in the home page and the about authors is of my own cre
 ## 9. Images
 
 All images used within this site have been provided with [pexels, paxabay] these are royalty free websites.
-[https://www.pexels.com/] , [https://pixabay.com/]
+[https://www.pexels.com/] , [https://pixabay.com/].
 
 All images included in the site underwent resizing using tinypng.
-[https://tinypng.com/]
+[https://tinypng.com/].
 
 The favicon used for the site was taken from favicon.io
-[https://favicon.io/]
+[https://favicon.io/].
 
 ## 10. Content
 
@@ -210,13 +215,16 @@ The following website was used for validation of my code.
 
 [Validator For HTML5 and CSS3](https://validator.w3.org/).
 
-All HTML files came back with no issues
+All HTML files came back with no issues.
 
 [HTML Validation Image](htmlindexvalid.jpg)
 
 CSS file had 1 error, this can be ignored as it is a necessary line of code.
 
 [CSS Validation Image](cssvalidation.jpg)
+
+### Link Validation
+The links of the website (except the Facebook link) were validated using the [W3C Link Checker](https://validator.w3.org/checklink). The Facebook link was not checked due to robots exclusion rules, but I validated the link manually.
 
 ## 13. Deployment:
 
