@@ -25,7 +25,7 @@ The main goal of the Valhalla Ink website are
 
 2. To generate traffic to the site, allow future customers to have a hub for contacting the shop
 
-## User Stories
+## 3. User Stories
 
 ### A Customer will want to:
 
@@ -47,13 +47,13 @@ The main goal of the Valhalla Ink website are
 
 4) Have a place to find all the details about the shop.
 
-### Future Ideas
+## 4. Future Ideas
 
 - Implement a FAQ, allowing the user to get more information from the site.
 - Implement a map showing where exactly the shop is.
 - Add a changing gallery where photos will cycle through.
 
-## The 5 Planes of User Experience Development.
+## 5. The 5 Planes of User Experience Development.
 
 ### Scope
 For this project I have decided that it is best to keep it simple. A tattoo parlour does not need a fancy website.
@@ -81,8 +81,17 @@ The basic structure of Valhalla Ink was sketched out on paper and from there i m
 
 ##### Old Wireframes
 
+[Home]
+
+[Gallery]
+
 ##### Final Wireframes
 
+[Home]
+
+[Gallery]
+
+[Contact]
 
 ### Surface
 The colors blue and a blueish grey were chosen because they were very common colours back in the era of the vikings. These were very easy to make dyes for. 
@@ -90,30 +99,43 @@ The colors blue and a blueish grey were chosen because they were very common col
 ### Skeleton
 Navigation is performed via the header, with page title links kept clear and concise. On smaller screens sizes, the content sections in the home page will stack on top of each other. In the gallery the grid will scale down width wise to fit the screen (On mobile it will only show 1 image at a time). The footer columns stack aswell when confined to a smaller screen. On larger screen sizes this is different, because both images and the information on the home screen can be seen at once. Along with the gallery where the images can be fully sized on the desktop also.
 
-#### Desktop:
+### Final Site Desktop Screenshots:
+[Home Page Top](home_desktop_top.jpg), [Home Page Middle](home_desktop_mid.jpg), [Home Page Bottom](home_desktop_bottom.jpg)
 
-#### Tablet:
+[Gallery Page Top](gallery_desktop_top.jpg), [Gallery Page Bottom](gallery_desktop_bottom.jpg)
 
-#### Mobile:
+[Contact Page Top](contact_desktop_top.jpg), [Contact Page Bottom](contact_desktop_bottom.jpg)
+### Final Site Tablet Screenshots:
+[Home Page Top](tablet_home_top), [Home Page Bottom](tablet_home_bottom.jpg)
+
+[Gallery Page Top](tablet_gallery_top), [Gallery Page Bottom](tablet_gallery_bottom.jpg)
+
+[Contact Page](contact_tablet.jpg)
+### Final Site Mobile Screenshots:
+[Home Page Top](home_mobile_top.jpg), [Home Page Middle](home_mobile_middle.jpg), [Home Page Bottom](home_mobile_bottom.jpg)
+
+[Gallery Page Top](gallery_mobile_top.jpg), [Gallery Page Middle](gallery_mobile_middle.jpg), [Gallery Page Bottom](gallery_mobile_bottom.jpg)
+
+[Contact Page Top](contact_mobile_top.jpg), [Contact Page Bottom](contact_mobile_bottom.jpg)
 
 
-#### Colours:
+## 6. Colors:
 Trying to keep the entire website in a uniform design, I wanted it to be a supporting colour of the theme of the tattoo parlour, so i ended up using certain colours for the header, footer and main body that would have been the clothing colour back in viking eras, (the easiest dyes to make back then were blueish greys) and then i just ensure i used contrasting colour for headings and paragraphs.
 
-- Body backgorund color: #252c30;
+- Body background color: #252c30;
 - Heading and footer color: #315564;
 - Text color: #CACACA;
 - Logo color: #fff;
 
-#### Typography
+## 7. Typography
 
 I decided to go with Girassal font and a cursive as a fallback font.
 I felt like it was the most fitting font for a norse mythological and viking themed tattoo shop.
 
-#### Text
+## 8. Text
 All flavour text written in the home page and the about authors is of my own creation.
 
-#### Images
+## 9. Images
 
 All images used within this site have been provided with [pexels, paxabay] these are royalty free websites.
 [https://www.pexels.com/] , [https://pixabay.com/]
@@ -124,53 +146,53 @@ All images included in the site underwent resizing using tinypng.
 The favicon used for the site was taken from favicon.io
 [https://favicon.io/]
 
-#### Content
+## 10. Content
 
 - Page content is static and won't change, when designing the layout of pages this was taken into consideration.
 
 - As I have stated above all the images were taken from pexels and paxabay. These images are royalty feee and do not incur any copyright issues.
 
-### Testing
+## 11. Testing
 
 Most testing was done through Developer tools in Google Chrome, whilst in the preview from Gitpod. This resulted in modifications to the code as it was being written.
 
-#### Navigation Bar
+### Navigation Bar
 
 - Click on the logo at the top of the header and see if it displays clearly.
 - Click on one of the links to the other pages Gallery and Contact and see if they open.
 - Can the Navigation bar be fully functional on all screen types.
 - Does the nav bar appear the same on all pages of the site.
 
-##### All tests were performed and no errors were found.
+#### All tests were performed and no errors were found.
 
-#### Footer
+### Footer
 
 - Click on all social media links in the footer, do they open in a new tab, do they open to the correct site.
 - Is the footer information fully functioning and legible on alla screen sizes.
 
-##### All tests were performed and no errors were found.
+#### All tests were performed and no errors were found.
 
-#### Home Page
+### Home Page
 
 - Do the images stretch or become distorted on differant screen sizes.
 - Does the text-wrap perform as expected when screen sizes change and is all of the text legible 100% of the time.
 - Is the page responsive on all screen sizes
 
-##### All tests were performed and no errors were found.
+#### All tests were performed and no errors were found.
 
-#### Gallery Page
+### Gallery Page
 
 - Do the images stretch or become distorted on differant screen sizes.
 - Is the page responsive on all screen sizes.
 
-##### All test were performed and no errors were found.
+#### All test were performed and no errors were found.
 
-#### Contact Page
+### Contact Page
 
 - Does the content of the email input box require an actual email address.
 - Is the page responsive on all screen sizes.
 
-##### All test were performed and no errors were found.
+#### All test were performed and no errors were found.
 
 ### I tested the website on the following browsers using a Chuwi Herobook Pro and a Custom built PC (intel i7 6700k, GTX 1070ti).
 
@@ -182,16 +204,87 @@ The website was fully functional on all of these browsers. All navigation links 
 
 The website was also tested on a Huawei P30 running Android 11.
 
-### Validation
+## 12. Validation
 
 The following website was used for validation of my code.
 
 [Validator For HTML5 and CSS3](https://validator.w3.org/).
 
-All HTML files came backl with no issues
+All HTML files came back with no issues
 
-[HTML Validation Iamge] 
+[HTML Validation Image](htmlindexvalid.jpg)
 
+CSS file had 1 error, this can be ignored as it is a necessary line of code.
+
+[CSS Validation Image](cssvalidation.jpg)
+
+## 13. Deployment:
+
+### Deployment to github Pages
+
+1. Visit [Github](www.github.com).
+2. Navigate to the [Lynch4360/Valhalla-Ink-MS1](https://github.com/Lynch4360/Valhalla-Ink-MS1) Repository.
+3. Click settings along the top options bar.
+4. Click pages found at the bottom of the left hand navigation bar.
+5. In the 'Source' section, click the dropdown menu that is labeled 'none' and select "Main".
+6. Click Save.
+7. Page will auto refresh and provide you with a link to the Live GitHub Page for this repository.
+The Page can sometimes take a little time to load and go live and this is expected.
+
+## 14. Cloning Seastainability Repository
+
+1. Open GitBash and create a directory where you want to save the code.
+   > $ mkdir "directoryname"
+2. Navigate into the new directory.
+   > $ cd "directoryname"
+3. Navigate to the repository [Lynch4360/Valhalla-Ink-MS1](https://github.com/Lynch4360/Valhalla-Ink-MS1)
+4. Click on "Code" and then copy the SSH address.
+
+5. Navigate back to GitBash and clone the repository.
+   > $ git clone git@github.com:roomacarthur/seastainability.git
+
+The code will now be available within the directory you created. You can open the code up with the command.
+
+> $ code .
+
+## 15. Forking Seastainability Repository
+
+If you wish to experiment with the code freely, you can achieve this by forking the repository. Forking a repository allows you to experiment without the original project being effected. To achieve this you need to:
+
+1. Navigate to the repository [Lynch4360/Valhalla-Ink-MS1](https://github.com/Lynch4360/Valhalla-Ink-MS1).
+2. In the top right of the page, below your profile you should see a "Fork" button. Simply click on this.
+3. A copy of the repository will then be added to your own Repositories Page.
+
+## 16. Accrediting:
+[Readme Inspiration](https://x-team.com/blog/how-to-write-a-great-readme/)
+
+[More Readme Inspiration](https://www.youtube.com/watch?v=7kMOD-Xd-zU)
+
+[Grid Layout Inspiration](https://courses.kevinpowell.co/conquering-responsive-layouts)
+
+[Flex Box Inspiration](https://www.youtube.com/watch?v=vQAvjof1oe4)
+
+[Gallery Grid](https://www.youtube.com/watch?v=zgXHgKad7N0&t=1455s)
+
+[Home Page Inspiration](https://www.youtube.com/watch?v=bn-DQCifeQQ&t=2081s)
+
+[Nav Bar Inspiration](https://www.youtube.com/watch?v=xMTs8tAapnQ)
+
+[W3 Schools Nav bar idea](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+
+[Flex Code in css line 57-68 taken from](https://courses.kevinpowell.co/conquering-responsive-layouts)
+
+## 17. Languages used
+
+[HTML](https://en.wikipedia.org/wiki/HTML)
+
+[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+[MARKDOWN](https://en.wikipedia.org/wiki/Markdown)
+
+---------------------------------
+
+## [Back to the Start](https://github.com/Lynch4360/Valhalla-Ink-MS1)
 
 
 
