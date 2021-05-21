@@ -79,19 +79,19 @@ My wireframes can be found below. The Website is setup so that it can be viewed 
 ### Wireframes
 The basic structure of Valhalla Ink was sketched out on paper and from there i made a wireframe for the home page and gallery, after some design issues I then made new wireframes which then came into fruition for the live website that is linked above. Plans changed during the initial stages. I have included the old and the redesigned Wireframes Below.
 
-##### Old Wireframes
+#### Old Wireframes
 
-[Home]
+[Home](assets/images/readme_images/old_home_wf.jpg)
 
-[Gallery]
+[Gallery](assets/images/readme_images/old_gallery_wf.jpg)
 
-##### Final Wireframes
+#### Final Wireframes
 
-[Home]
+[Home Desktop](assets/images/readme_images/home_desktop_wf.jpg)
 
-[Gallery]
+[Tablet Gallery And Contact Pages](assets/images/readme_images/tablet_gallery_wf.jpg)
 
-[Contact]
+[Tablet Home Page](assets/images/readme_images/tablet_home_wf.jpg)
 
 ### Surface
 The colors blue and a blueish grey were chosen because they were very common colours back in the era of the vikings. These were very easy to make dyes for. 
